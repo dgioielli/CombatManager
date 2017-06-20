@@ -30,9 +30,16 @@ using System.Xml.Serialization;
 
 namespace CombatManager
 {
+    /// <summary>
+    /// Classe responsável por definir até onde eu compreendi a situação atual do combate.
+    /// Essa classe tem a característica de disparar eventos quando uma de suas propriedades 
+    ///  é alterada.
+    /// </summary>
     public class ActiveCondition : INotifyPropertyChanged
     {
-
+        /// <summary>
+        /// Evento responsável por indicar a mudança de uma propriedade.
+        /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
 
         private Condition _Condition;

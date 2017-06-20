@@ -86,20 +86,64 @@ namespace CombatManager
 
     }
     
-
+    /// <summary>
+    /// Classe responsável por cuidar de uma condição e do conjunto de condições existentes
+    ///  no sistema.
+    /// Essa classe tem um marcador para avisar mudanças em suas propriedades.
+    /// </summary>
     public class Condition : INotifyPropertyChanged
     {
+        #region Eventos da Classe
+
+        /// <summary>
+        /// Evento de alteração das propriedades da classe.
+        /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private static List<Condition> _Conditions;
-        private static List<Condition> _CustomConditions;
-        private static List<FavoriteCondition> _FavoriteConditions;
-        private static List<FavoriteCondition> _RecentCondtions;
+        #endregion
 
-        private static bool _MonsterConditionsLoaded;
+        #region Constantes
 
+        /// <summary>
+        /// Ainda não sei para que serve essa variável.
+        /// </summary>
         private const int RecentLength = 8;
 
+        #endregion
+
+        #region Variáveis Estáticas
+
+        /// <summary>
+        /// Lista de Condições.
+        /// </summary>
+        private static List<Condition> _Conditions;
+
+        /// <summary>
+        /// Lista de Condições modificadas.
+        /// </summary>
+        private static List<Condition> _CustomConditions;
+        /// <summary>
+        /// Lista das Condições marcadas pelo usuário como favoritas.
+        /// </summary>
+        private static List<FavoriteCondition> _FavoriteConditions;
+        /// <summary>
+        /// Lista das Condições utilizadas recentemente.
+        /// </summary>
+        private static List<FavoriteCondition> _RecentCondtions;
+
+        /// <summary>
+        /// Ainda não sei para que serve essa variável
+        /// </summary>
+        private static bool _MonsterConditionsLoaded;
+
+        #endregion
+
+        #region Funções Estáticas
+
+        /// <summary>
+        /// Função responsável por carregar todas as condições padrão do sistema.
+        /// As condições padrão vem do arquivo: Condition.xml
+        /// </summary>
         public static void LoadConditions()
         {
             _Conditions = XmlListLoader<Condition>.Load("Condition.xml");
@@ -113,6 +157,8 @@ namespace CombatManager
             LoadRecentConditions();
 
         }
+
+        #endregion
 
         private static void LoadCustomConditions()
         {

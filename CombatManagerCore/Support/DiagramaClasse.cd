@@ -1,0 +1,1925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CombatManager.ActiveCondition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEgAAAAACBAAAAAAABAAAAoiAAAAAAAEAAAEAAABg=</HashCode>
+      <FileName>ActiveCondition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ActiveResource" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAABAAAAAAEACAIAQAgAAAAAAAQQQAEAAABAA=</HashCode>
+      <FileName>ActiveResource.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Affliction" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAotgqiBIBAIQEATAyIZQkgIYQAQAAIRcDDCChBJA=</HashCode>
+      <FileName>Affliction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ArmorWeaponChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAAAAgAAAAAAAIBQAgCAAAAEAEQABQAAABIA=</HashCode>
+      <FileName>ArmorWeaponChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ArmorWeaponSpecialChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAgAAAAAAEIBQAigAAAQAAAQAgAAAEBKA=</HashCode>
+      <FileName>ArmorWeaponSpecialChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Attack" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAhKAiCCAhgAIIECAUULBSDggtAgCgIQWoCCAAAABA=</HashCode>
+      <FileName>Attack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.AttackSet" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAAAEEAAAIAQAAAACAAAAAAAAAIAAABA=</HashCode>
+      <FileName>AttackSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.Bookmark" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAIAQAgAAAABAAAQAEAAAEBAA=</HashCode>
+      <FileName>Bookmark.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.BookmarkList" Collapsed="true">
+    <Position X="18" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAUAABAAAAQQAAAAAAAAAAAEAAAAAAAAIAEgAI=</HashCode>
+      <FileName>BookmarkList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CampaignEvent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAgEAAECABAEAAAAAAAAAAgIAAgCBAAAEIAAEAAhA=</HashCode>
+      <FileName>CampaignEvent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.CampaignInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAEABAAgRAAAQAAQIAggAACEAACABAAAEAAAA=</HashCode>
+      <FileName>CampaignInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Character" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBBxAYBwMCgA4iJcEAbQUBwSwhAEFADAClDQwEII8hU=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.EventExt" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CharacterActionItem" Collapsed="true">
+    <Position X="26.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAEAAAQ=</HashCode>
+      <FileName>CharacterActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CharacterActions" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAIAAAAAAAAABAAAAARAAAAAEAAABAABAAAAA=</HashCode>
+      <FileName>CharacterActions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CharacterAttacks" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQIAAAQCAAAAECAAACAAgACEAAAAAAACAIAAAAg=</HashCode>
+      <FileName>CharacterAttacks.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.CharacterClass" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAACAAAAAAAAAAIAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CMMathUtilities" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAABABAAAAAAEAAAAAQAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>CMMathUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CMRegexUtilities" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEQAAAIAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CMRegexUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CMStringUtilities" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACYAAQAASAgBAABCAAAAAAAAAA=</HashCode>
+      <FileName>CMStringUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.Coin" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAABAAAAAAAQAEQAEAAACIgMAIAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Coin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SimpleCombatListItem" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CombatState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CombatStateCharacterEventArgs" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAACAA=</HashCode>
+      <FileName>CombatState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.CombatState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WQgAIOICITSBEQBkYKIBEWABggDIhUCYMQUBw0sEOoI=</HashCode>
+      <FileName>CombatState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.FavoriteCondition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAgAAAAAAAAQAAAAAABAA=</HashCode>
+      <FileName>Condition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Condition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAACC4kJCACAAAASlAEIAQEkgIgEJSAAQtAiAAAABg=</HashCode>
+      <FileName>Condition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ConditionBonus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cFwMAQAAAiVBgkzECFUBokKA8JMCAIgAlIUAlIBmCjI=</HashCode>
+      <FileName>ConditionBonus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.CreatureTypeInfo" Collapsed="true">
+    <Position X="26.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAgAgAAAQIAAAAKQAJAAAAMAABAAAAAAAAIA=</HashCode>
+      <FileName>CreatureTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DBLoaderIgnoreAttribute" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DBLoader&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAYJRCAGAACQAgASAAAUAggIAQAAACkwAQAIAAIIA=</HashCode>
+      <FileName>DBLoader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.DBSettings" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DBSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DBTableDesc" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIAAABAAAAAAIAQACABAAAAAAQCAAACAjAA=</HashCode>
+      <FileName>DBTableDesc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DBFieldDesc" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAAAAAAACAAAIAEIAQIAAABAAAAAQAAAEAAhAA=</HashCode>
+      <FileName>DBTableDesc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DebugLogger" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAACIAAAAAAAAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>DebugLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DetailsDB" Collapsed="true">
+    <Position X="18" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAIAAAICAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>DetailsDB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.RollResult" Collapsed="true">
+    <Position X="14.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAABAAQAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DieRoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DieResult" Collapsed="true">
+    <Position X="19.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DieRoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DieRoll" Collapsed="true">
+    <Position X="21.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAIAAACECBCAMlCBABBgAAQAKAJAEIAKACAEAAnE=</HashCode>
+      <FileName>DieRoll.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.DieStep" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkgCAAAAQAgAAAAIAAAAIAGIAAAiA=</HashCode>
+      <FileName>DieRoll.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Equipment" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAgAAAAAAQAAAIBRAgGAAAAEAAQgQAAAQBAA=</HashCode>
+      <FileName>Equipment.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ExportData" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAEQAAAQBAAAAAAgAAAAIAAAABAAAAABAA=</HashCode>
+      <FileName>ExportData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Feat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EkSAAWwIAoEAiCAAAAAAIQRIgGAIAIRCIQJIUAIcTBE=</HashCode>
+      <FileName>Feat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.FeatHtmlCreator" Collapsed="true">
+    <Position X="23.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>FeatHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.GenericHtmlCreator" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>GenericHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.HtmlBlockCreator" Collapsed="true">
+    <Position X="16.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BRBAAAAAAQAAAARABJAAABAAACQAAsAETAAAAAAGoGI=</HashCode>
+      <FileName>HtmlBlockGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.TitleValuePair" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>HtmlBlockGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.InitiativeCount" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgSEgACAAgIAgAAAAIAAACAACAAARzI=</HashCode>
+      <FileName>InitiativeCount.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.InsensitiveEqualityCompararer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>InsensitiveComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.InsensitiveComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>InsensitiveComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.MagicItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>0AAsAkqhAygmSwMrE0ZBITQB4m6AEaelgCQwwIIoAig=</HashCode>
+      <FileName>MagicItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.MagicItemHtmlCreator" Collapsed="true">
+    <Position X="18" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>MagicItemHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.MonsterParseException" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>monster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.Monster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>///5f//v/+0q7///b/u7/vz3357///e///37//////8=</HashCode>
+      <FileName>monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.MonsterDB" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAACACCAQAAAAAAAAAAAAAAAAAACAAAAAAAgEARA=</HashCode>
+      <FileName>MonsterDB.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.MonsterHtmlCreator" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAABCEAAAAAAQAAAAAGAAAAQAAAAAAAAAQAA=</HashCode>
+      <FileName>MonsterHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.ParsedFeat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAEAAAAIAQAgCAAGAAAAAAACAAAAAA=</HashCode>
+      <FileName>ParsedFeat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.FootConverter" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyConverters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.WeightChartRandom" Collapsed="true">
+    <Position X="21.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RandomWeightChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.RandomWeightChart&lt;T&gt;" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAQAAAgAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RandomWeightChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.Rule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAgAAgAgABhgAQAAJEYAQAgEgIAgAAAQoAACI0hBA=</HashCode>
+      <FileName>Rule.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.RuleHtmlCreator" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>RuleHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.SizeMods" Collapsed="true">
+    <Position X="16.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAgCCAAACAgACAEAAgIAaAiJBEQAAEAEAFAgAAAAA=</HashCode>
+      <FileName>SizeMods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.SkillValue" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAAIAQAgAQAAAAAAAgACEAQABA=</HashCode>
+      <FileName>SkillValue.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SourceInfo" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAGAIAgAAAAAAAAIA=</HashCode>
+      <FileName>SourceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.SpecialAbility" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAABAAAAAAgAAAIAQAgAAAAAAAAQAACAAABBA=</HashCode>
+      <FileName>SpecialAbility.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SpecificItemChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAgAAgAAAAAAAIBQAiEAAAQAAAQAgAAAEBKA=</HashCode>
+      <FileName>SpecificItemChart.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Spell" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EY6yf9ZsiEnT/qtcv7yWlwU70/YOYNHbr4N76tnwib0=</HashCode>
+      <FileName>Spell.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SpellBlockInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACFAMAACAACEQCAoCAEBB8BAgAAABACAEoIiBABI=</HashCode>
+      <FileName>SpellBlockInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SpellHtmlCreator" Collapsed="true">
+    <Position X="26.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SpellHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.SpellInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAIAEgAABACAAAAAgAAIAQAwABAAIAAAAIAAAAIABA=</HashCode>
+      <FileName>SpellInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.SpellLevelInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAUgAAIAAQAAEAAAAQAAAgAAQBIgBAAAAAAACAFA=</HashCode>
+      <FileName>SpellLevelInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.StringCapitalizer" Collapsed="true">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StringCapitalizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.Good" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAIAQAgAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Treasure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Treasure" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABAACAAAAAAABEAAgAAAAAABIAAAAAAACCA=</HashCode>
+      <FileName>Treasure.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.TreasureGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAEEcEIFZgASgYqCYBJBACYyggQFhQFZAAAgER4iCQ=</HashCode>
+      <FileName>TreasureGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.GemChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAABBAACAAAAIAgAAAAgAAAAAgAAgAAAA=</HashCode>
+      <FileName>TreasureGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.ArtChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAABAAACAAAAAAgAAAAoBAAAAgAAgAAAA=</HashCode>
+      <FileName>TreasureGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.TreasureChart" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQEIIAAAAAABAAABAAAAoAAAgAABAAgAAwBAEAA=</HashCode>
+      <FileName>TreasureGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.TreasureHtmlCreator" Collapsed="true">
+    <Position X="19.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>TreasureHtmlCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.TreasureItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAABgAAoARAgAAAAIAAAQAgAAAABBA=</HashCode>
+      <FileName>TreasureItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.Weapon" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCAsKewgCxACGgAgOAIQ6h2XgP3qAKUAcRgCUAEAgBA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.WeaponItemPlus" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAIAQAgAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>WeaponItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.WeaponItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACghAAoCAAAAAIEBYARIBAyCiAAIAAoKYCJAAAAACBA=</HashCode>
+      <FileName>WeaponItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.WeaponSpecialAbility" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAiAAAAEEAGAAAAAAAIASQiIBAEYQAACAgDAEEgCE=</HashCode>
+      <FileName>WeaponSpecialAbility.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CombatManager.XElementExt" Collapsed="true">
+    <Position X="23.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XElementExt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.XmlListLoader&lt;T&gt;" Collapsed="true">
+    <Position X="25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XMLLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CombatManager.XmlLoader&lt;T&gt;" Collapsed="true">
+    <Position X="26.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAICEAAAQAAAAAAAAEABBAAAAARIAAAAIE=</HashCode>
+      <FileName>XMLLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.document" Collapsed="true">
+    <Position X="25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Public" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Program" Collapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Programinfo" Collapsed="true">
+    <Position X="26.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Version" Collapsed="true">
+    <Position X="2.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAIAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.localization" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Character" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAIACFlIRQAMQYhNAcBQgpBgEACVEzOgQQQRIELEUEg=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Bookinfo" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Pathfindersociety" Collapsed="true">
+    <Position X="18" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Race" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAIAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Alignment" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Templates" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Size" Collapsed="true">
+    <Position X="14.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Space" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Reach" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Deity" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.CR" Collapsed="true">
+    <Position X="25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.XPaward" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Classes" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABIAAAAAAEAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Class" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABBAAAEgAAAACAAAAAAAAAEEABAAAACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Arcanespellfailure" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Factions" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Faction" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAIAABAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Types" Collapsed="true">
+    <Position X="25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Type" Collapsed="true">
+    <Position X="23.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Subtypes" Collapsed="true">
+    <Position X="23.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Subtype" Collapsed="true">
+    <Position X="21.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Heropoints" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Senses" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Special" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIACAAAEAAAAFAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Description" Collapsed="true">
+    <Position X="16.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Specsource" Collapsed="true">
+    <Position X="9.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Auras" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Favoredclasses" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Favoredclass" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Health" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAgAAAAAAAAAAIAAAAAAAEAAAAACAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.XP" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Money" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAMgAwAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Personal" Collapsed="true">
+    <Position X="23.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAQAgAIAAIgBIAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Height" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weight" Collapsed="true">
+    <Position X="19.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Languages" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Language" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Attributes" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Attribute" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAQBAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Attrvalue" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Attrbonus" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAEAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Situationalmodifiers" Collapsed="true">
+    <Position X="12.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Situationalmodifier" Collapsed="true">
+    <Position X="11" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Saves" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Save" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAASAAAAAAUAAAAEAAAAEAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Allsaves" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAASAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Defensive" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.DR" Collapsed="true">
+    <Position X="26.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Immunities" Collapsed="true">
+    <Position X="21.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Resistances" Collapsed="true">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weaknesses" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Armorclass" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAQAAABAAQAEAggAAAAAAAAIEAAAAQgAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Penalties" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Penalty" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Maneuvers" Collapsed="true">
+    <Position X="21.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQAAQAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Maneuvertype" Collapsed="true">
+    <Position X="23.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAQACAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Initiative" Collapsed="true">
+    <Position X="23.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAYAAIAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Movement" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAIAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Speed" Collapsed="true">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Basespeed" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Encumbrance" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACACAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Skills" Collapsed="true">
+    <Position X="21.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Skill" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAABAAIQBCAAAAAABEACAAAACAAQAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Skillabilities" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Feats" Collapsed="true">
+    <Position X="25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Feat" Collapsed="true">
+    <Position X="19.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAEAAAAAAIAAAAAAAAAAEAAAAAQgAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Featcategory" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Traits" Collapsed="true">
+    <Position X="12.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Trait" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAEAAAAAAIAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Traitcategory" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Flaws" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Flaw" Collapsed="true">
+    <Position X="26.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Skilltricks" Collapsed="true">
+    <Position X="25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Skilltrick" Collapsed="true">
+    <Position X="23.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Animaltricks" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Animaltrick" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Attack" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABABAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Melee" Collapsed="true">
+    <Position X="25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weapon" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAgAAAIZAAAAQEAAAUAAChIQAIAAAAABA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Rangedattack" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAgAAAAAAAAAAAAAACAAAAIAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weaponweight" Collapsed="true">
+    <Position X="18" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Cost" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Itemslot" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Itempower" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAgAAAgAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weaponcategory" Collapsed="true">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Weapontype" Collapsed="true">
+    <Position X="16.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Ranged" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Defenses" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Armor" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAIBAAAAAEAAAUAACgAQAAAAAAABA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Magicitems" Collapsed="true">
+    <Position X="19.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Item" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAEAAAUAACgAQAAAAAAABA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Gear" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spelllike" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Trackedresources" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Trackedresource" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAAAAAAAAAAAAAMAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Otherspecials" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellsknown" Collapsed="true">
+    <Position X="9.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spell" Collapsed="true">
+    <Position X="14.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAwCQIIAACAAEBAKAAIIoAAAAEEBAAQgQAAAQQQAAM=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellcomponent" Collapsed="true">
+    <Position X="23.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellschool" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellsubschool" Collapsed="true">
+    <Position X="12.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spelldescription" Collapsed="true">
+    <Position X="25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.spellsprepared" Collapsed="true">
+    <Position X="11" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellbook" Collapsed="true">
+    <Position X="18" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellclasses" Collapsed="true">
+    <Position X="21.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spellclass" Collapsed="true">
+    <Position X="19.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAEACAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Spelllevel" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgQAAAAQAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Journals" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Journal" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAIBAAAAAAAAAEACAAAIgAwEAAEAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Images" Collapsed="true">
+    <Position X="19.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Image" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Validation" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Report" Collapsed="true">
+    <Position X="11" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Validatemessage" Collapsed="true">
+    <Position X="26.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Settings" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.NPC" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAIAAAAAABAAIAAAAACAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Basics" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.NPCinfo" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Tactics" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Ecology" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Additional" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Herolab.Minions" Collapsed="true">
+    <Position X="26.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.RomanNumbers" Collapsed="true">
+    <Position X="16.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAAAEA=</HashCode>
+      <FileName>RomanNumbers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.RowInsensitiveComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAABAAAAAAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScottsUtils.Row" Collapsed="true">
+    <Position X="18" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAIAAAEAAAAAAAAAAAAgQAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.SQLVariant" Collapsed="true">
+    <Position X="18" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAIEAAAAAAAAQAAIAAAAEAAAQAQBAAACAAAAAAIAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.RowDictionary" Collapsed="true">
+    <Position X="19.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.RowReader" Collapsed="true">
+    <Position X="23.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.RowsRet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAEAAAAFAgAAAAAAAICAAAAAAGAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScottsUtils.SQL_Lite_Exception" Collapsed="true">
+    <Position X="16.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScottsUtils.TableRow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScottsUtils.Table" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAAESAABAQCAAAFAQgIAAIQAAIKAAQADBQIBQ=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScottsUtils.SQL_Lite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAEAAAAKAAsAAFICgAAAKCBAIAQBAAEQAQAQAANAA=</HashCode>
+      <FileName>C:\Users\dougl\Source\Repos\CombatManager\SQLite\SQL Lite.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="CombatManager.IDBLoadable" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>DBTableDesc.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CombatManager.ILogTarget" Collapsed="true">
+    <Position X="2.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DebugLogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CombatManager.CharacterActionType" Collapsed="true">
+    <Position X="7.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACIAgACABIhBBEIAAgAAgDQQAMIBAQQAABAAAkAAhA=</HashCode>
+      <FileName>CharacterActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.CharacterActionResult" Collapsed="true">
+    <Position X="5.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAgAAAAAAAAAgAQAIgAAAAAAABAAAUAAAA=</HashCode>
+      <FileName>CharacterActions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.CharacterClassEnum" Collapsed="true">
+    <Position X="11" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAKgAMAIQAUCBAAACBQCAgAAACAABEkAAIQAEFAgAA=</HashCode>
+      <FileName>CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.ConditionType" Collapsed="true">
+    <Position X="14.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAEA=</HashCode>
+      <FileName>Condition.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.CreatureType" Collapsed="true">
+    <Position X="16.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAwAAAAAAYAgAAgBCEAAAAAAAAAAAACIAAAAAAAAAA=</HashCode>
+      <FileName>CreatureTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.ItemLevel" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEACA=</HashCode>
+      <FileName>MagicItem.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.MonsterSize" Collapsed="true">
+    <Position X="5.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAEAAAAAAABgAAAEAAIAAIAAABAEAAA=</HashCode>
+      <FileName>SizeMods.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.SourceType" Collapsed="true">
+    <Position X="19.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAIAAgAAAgAAAAIAAAAAgAAAAACAA=</HashCode>
+      <FileName>SourceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CombatManager.Stat" Collapsed="true">
+    <Position X="0.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAEAAAAAAABBAAAAAAAAACAAAACA=</HashCode>
+      <FileName>Stat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.FactionRetired" Collapsed="true">
+    <Position X="18" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.TypeActive" Collapsed="true">
+    <Position X="5.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.HeropointsEnabled" Collapsed="true">
+    <Position X="26.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Gender" Collapsed="true">
+    <Position X="25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.LanguageUseradded" Collapsed="true">
+    <Position X="4" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.SkillTools" Collapsed="true">
+    <Position X="14.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.skillArmorcheck" Collapsed="true">
+    <Position X="12.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Classskill" Collapsed="true">
+    <Position X="12.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Trainedonly" Collapsed="true">
+    <Position X="2.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.skillUsable" Collapsed="true">
+    <Position X="18" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.FeatProfgroup" Collapsed="true">
+    <Position X="19.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.FeatUseradded" Collapsed="true">
+    <Position X="21.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.TraitUseradded" Collapsed="true">
+    <Position X="4" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.FlawUseradded" Collapsed="true">
+    <Position X="23.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.SkilltrickUseradded" Collapsed="true">
+    <Position X="16.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.AnimaltrickUseradded" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.WeaponEquipped" Collapsed="true">
+    <Position X="7.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAQAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAAQA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.WeaponUseradded" Collapsed="true">
+    <Position X="9.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.ArmorEquipped" Collapsed="true">
+    <Position X="2.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Naturalarmor" Collapsed="true">
+    <Position X="7.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.ArmorUseradded" Collapsed="true">
+    <Position X="4" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.ItemUseradded" Collapsed="true">
+    <Position X="2.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.SpellUseradded" Collapsed="true">
+    <Position X="26.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.spellSpontaneous" Collapsed="true">
+    <Position X="23.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.SpellUnlimited" Collapsed="true">
+    <Position X="25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.SpelllevelUnlimited" Collapsed="true">
+    <Position X="21.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.characterActive" Collapsed="true">
+    <Position X="9.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Role" Collapsed="true">
+    <Position X="11" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Herolab.Relationship" Collapsed="true">
+    <Position X="9.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Pathfinder.Herolab.Serializable.class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="CombatManager.CombatStateCharacterEvent" Collapsed="true">
+    <Position X="0.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CombatState.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
